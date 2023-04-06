@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 24px;
+  text-align: center;
+  margin: 25px;
+}
+
+.small {
+  position: absolute;
+  top: 24%;
+  left: 37%;
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+  margin: 25px;
+}
+
+div {
+  position: absolute;
+  left: 44%;
+  top: 15%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.textBox {
+  margin-left: 20px;
+}

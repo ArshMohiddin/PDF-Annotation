@@ -1,0 +1,14 @@
+<button (click)="modifyPdf()">Edit PDF</button>
+<input
+  type="text"
+  class="textBox"
+  *ngIf="!_isListening"
+  [(ngModel)]="inputText"
+/>
+<ngx-extended-pdf-viewer
+  id="pdf-viewer-con"
+  [src]="s3url"
+  height="850px"
+  [zoom]="'page-actual'"
+>
+</ngx-extended-pdf-viewer>
